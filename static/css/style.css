@@ -1,0 +1,93 @@
+.content{
+    max-width: 600px; 
+    height: 100%;
+    margin: 0 auto;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+.post_form{
+    padding: 20px 40px;
+    border-bottom: 1px solid #ccc;
+}
+.post_form input {
+    width: 70%;
+    margin-bottom: 10px;
+    padding:10px;
+    border: 1px solid #ccc;
+}
+.post_form textarea{
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.posts ul{
+    padding: 0;
+}
+.posts li{
+    position: relative;
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    padding: 17px;
+}
+.posts li .logo{
+    flex-basis : 15%;
+    width: 30%;
+}
+.posts .logo img{
+    width: 60%;
+}
+.posts li .name_body{
+    flex-basis:85%;
+}
+.posts li .menu_icon{
+    width: 20px;
+    position: absolute;
+    right: 30px;
+    top: 18px;
+
+}
+.posts li .menu{
+    display: none;
+    position: absolute;
+    top: 40px;
+    right: 15px;
+    border: 1px solid #ccc;
+    background-color: white;
+    padding: 10px 15px;
+    font-size: 15px;
+    border-radius: 3px;
+}
+.posts li .menu a{
+    text-decoration: none;
+}
+@media screen and (max-width: 500px) {
+    .posts li .name_body .name{
+        font-size: 20px;
+    }
+}
+
+.header {
+    display: flex;
+    gap: 10px;
+    margin-left: 35px;
+}
+.header img{
+    width: 60px;
+}
+.bottom-area .submit{
+    width: 20%;
+    background-color: #8e8eeb;    
+}
+.bottom-area{
+    display: flex;
+    margin-top: 2%;
+    gap: 12px;   
+}
+.cancel{
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 10px 9px 1px 9px;
+    height: 3vh;
+    background-color: #dd7272;
+}
